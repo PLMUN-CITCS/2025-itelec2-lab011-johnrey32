@@ -14,7 +14,8 @@ def main():
         else:
             print("Membership required for access.")
     else:
-            print("Access denied. Must be at least 18 years old.") 
+        print("Access denied. Must be at least 18 years old.")
+        print("Invalid age input. Please enter an integer.")
 
 if __name__ == "__main__":
     main()    
